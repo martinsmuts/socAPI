@@ -1,4 +1,2 @@
 Flask==0.12.2
-Flask-RESTful==0.3.6
 Pandas==0.23.4
-
