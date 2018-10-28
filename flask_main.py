@@ -11,19 +11,19 @@ def hello():
 def predict(destination, origin):
     if request.method == 'POST':
         try:
-            from Final_Implementation.Final_Scripts import geocoding
-            from Final_Implementation.Final_Scripts import bing_maps_routes
-            from Final_Implementation.Final_Scripts import bing_maps_distance_matrix
-            from Final_Implementation.Final_Scripts import bing_maps_elevations
-            from Final_Implementation.Final_Scripts import bing_maps_traffic_speed_flow
-            from Final_Implementation.Final_Scripts import get_weather
-            from Final_Implementation.Final_Scripts import get_heading
-            from Final_Implementation.Final_Scripts import get_wind_type
-            from Final_Implementation.Final_Scripts import get_drag
-            from Final_Implementation.Final_Scripts import get_rolling_friction
-            from Final_Implementation.Final_Scripts import get_speedLimits
-            from Final_Implementation.Final_Scripts import get_acceleration
-            from Final_Implementation.Final_Scripts import Azure_final
+             import geocoding
+            import bing_maps_routes
+            import bing_maps_distance_matrix
+            import bing_maps_elevations
+            import bing_maps_traffic_speed_flow
+            import get_weather
+            import get_heading
+            import get_wind_type
+            import get_drag
+            import get_rolling_friction
+            import get_speedLimits
+            import get_acceleration
+            import Azure_final
 
             print(destination)
             print(origin)
